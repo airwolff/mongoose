@@ -6,7 +6,7 @@ var personSchema = new Schema({
   name: {type: String, required: true},
   location: String,
   birthDate: Date,
-  {
+  nicenessLevel: {
       type: Number,
       min: 1,
       max: 5

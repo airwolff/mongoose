@@ -59,5 +59,4 @@ myApp.controller('PeopleController', ['$http', function($http) {
         }
       );
     }
-
 }]);
